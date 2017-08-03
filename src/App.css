@@ -1,0 +1,51 @@
+
+h2 {
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 2em 1em;
+  max-width: 50em;
+}
+
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 1rem;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+}
+
+.ProductList li {
+  padding: 1rem;
+  border: 1px solid lightgrey;
+  width: 25%;
+  background-color: #ffffff;
+}
+
+.ProductList li img {
+  width: 100%;
+}
+
+button {
+  background-color: grey;
+  border-radius: 0;
+  outline: none;
+}
+
+button.active {
+  background-color: lightgrey;
+}
+
+
+.filterProducts input[type="radio"] {
+  margin: 3px 6px 3px 3px;
+  position: relative;
+  top: -2px;
+}
